@@ -32,3 +32,6 @@ def test_get_articles_raises_error_when_no_articles_could_be_found():
 def test_get_random_article():
     pass
 
+
+def test_get_random_article_retries_while_title_and_subtitle_the_same():
+    pass

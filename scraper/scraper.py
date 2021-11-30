@@ -31,4 +31,5 @@ class PlanetaScraper:
 
     def get_random_article(self):
         data = choice(self.articles)
+        # Add verification if title is not the same as subtitle and retry on scraping
         return Article(data=data)
